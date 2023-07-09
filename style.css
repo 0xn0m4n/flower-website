@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Open+Sans&family=Poppins:ital,wght@0,400;1,700&display=swap');
+/* navbar-st */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-for-navbar{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+.logo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
+    transition: 0.10;
+    cursor: pointer;
+}
+.menu-bar{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.menu-bar li {
+    margin: 20px;
+}
+.menu-bar:hover{
+    color: aqua;
+}
+.logo:hover{
+    color: violet;
+}
+/* nav-bar closed */
+/* banner start */
+.banner-title0{
+    height: 90vh;
+    background-image: url(image/slider.webp);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+.banner-info{
+    margin-left: 200px;
+}
+.new-arrivals{
+    color: red;
+    font-size: 36px;
+    padding-bottom: 8px;
+}
+.for-mother{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.paragraph1{
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #4b4b4b;
+}
+.btn-primary{
+    background-color: red;
+    font-size: 13px;
+    padding: 18px 38px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: white;
+}
+/* banner closed  */
